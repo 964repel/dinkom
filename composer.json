@@ -1,0 +1,10 @@
+{
+  "autoload": {
+    "psr-4": {
+      "dinkom\\": "vendor/dinkom.local/core",
+      "app\\": "app"
+    }
+  },
+  "require" : {
+  }
+  }

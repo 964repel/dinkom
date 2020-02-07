@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="879925f6-bc8c-42af-96fe-b50d27bff25a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/dinkom.new/core" />
+      <path value="$PROJECT_DIR$/vendor/dinkom.local/core" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1Ul29iSEejNFQConxEFIyOvEpWd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="\dinkom\App()" />
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="879925f6-bc8c-42af-96fe-b50d27bff25a" name="Default Changelist" comment="" />
+      <created>1575916714136</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575916714136</updated>
+      <workItem from="1575916720957" duration="1405000" />
+      <workItem from="1575918332301" duration="1412000" />
+      <workItem from="1575919780864" duration="3682000" />
+      <workItem from="1575928792190" duration="14168000" />
+      <workItem from="1575997317380" duration="20746000" />
+      <workItem from="1576168429886" duration="5813000" />
+      <workItem from="1576177468754" duration="7754000" />
+      <workItem from="1576528760950" duration="1293000" />
+      <workItem from="1577067755944" duration="8802000" />
+      <workItem from="1577165914407" duration="5424000" />
+      <workItem from="1577415297246" duration="6000" />
+      <workItem from="1578568741388" duration="5000" />
+      <workItem from="1578583131433" duration="9972000" />
+      <workItem from="1578881991993" duration="4384000" />
+      <workItem from="1578914799679" duration="20337000" />
+      <workItem from="1578940669632" duration="27930000" />
+      <workItem from="1581073641663" duration="9681000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578941745094">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1578941745094" />
+    <state x="520" y="235" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578942272947">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="520" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1578942272947" />
+    <state x="353" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581081268025">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="353" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.832@0.0.1536.832" timestamp="1575930763425" />
+    <state x="353" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.864@0.0.1536.864" timestamp="1581081268025" />
+    <state x="499" y="171" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1576001674528">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="499" y="171" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.832@0.0.1536.832" timestamp="1576001674528" />
+    <state x="631" y="235" key="NewPhpClassDialog" timestamp="1581080555518">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="631" y="226" key="NewPhpClassDialog/0.0.1536.832@0.0.1536.832" timestamp="1576178400589" />
+    <state x="631" y="235" key="NewPhpClassDialog/0.0.1536.864@0.0.1536.864" timestamp="1581080555518" />
+    <state x="604" y="352" key="NewPhpFileDialog" timestamp="1578951273772">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="604" y="339" key="NewPhpFileDialog/0.0.1536.832@0.0.1536.832" timestamp="1576182544907" />
+    <state x="604" y="352" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1578951273772" />
+    <state x="470" y="249" key="com.intellij.ide.util.TipDialog" timestamp="1581073716153">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="470" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.832@0.0.1536.832" timestamp="1576177469002" />
+    <state x="470" y="249" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1581073716153" />
+    <state x="93" y="93" width="1350" height="678" key="dock-window-1" timestamp="1581077775404">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="93" y="93" width="1350" height="678" key="dock-window-1/0.0.1536.864@0.0.1536.864" timestamp="1581077775404" />
+    <state x="425" y="196" width="672" height="677" key="run.anything.popup" timestamp="1578585771939">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.832@0.0.1536.832" timestamp="1575922329835" />
+    <state x="425" y="196" width="672" height="677" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1578585771939" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1578934438196">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1578934438196" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/views/Events/view.php</url>
+          <line>140</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

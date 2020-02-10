@@ -5,6 +5,7 @@
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/dinkom.new/core" />
       <path value="$PROJECT_DIR$/vendor/dinkom.local/core" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/valitron" />
     </include_path>
   </component>
 </project>

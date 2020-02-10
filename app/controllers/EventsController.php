@@ -19,10 +19,10 @@ class EventsController extends AppController
         // хлебные крошки
         $breadcrumbs = Breadcrumbs::getBreadcrambs($event->category_id, $event->title);
 
-        // связанные товары
+        // связанные мероприятия
         $related = \R::getAll("SELECT * FROM related JOIN events ON events.id = related.related_id WHERE related.event_id = ?", [$event->id]);
 
-        // запись в куки запрошенного товара
+        // запись в куки запрошенного мероприятия
         $e_model = new Event();
         $e_model->setRecentlyViewed($event->id);
 
@@ -39,8 +39,10 @@ class EventsController extends AppController
 
 
         // модификации
+        $mods = \R::findAll('modification', 'event_id = ?', [$event->id]);
+
 
         $this->setMeta($event->title, $event->description, $event->keywords);
-        $this->set(compact('event', 'related', 'gallery', 'resentlyViewed', 'breadcrumbs'));
+        $this->set(compact('event', 'related', 'gallery', 'resentlyViewed', 'breadcrumbs', 'mods'));
     }
 }

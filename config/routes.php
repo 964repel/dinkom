@@ -4,6 +4,7 @@ use dinkom\Router;
 
 Router::add('^curses/(?P<alias>[a-z0-9-]+)/?$', ['controller' => 'Curses', 'action' => 'view']);
 Router::add('^events/(?P<alias>[a-z0-9-]+)/?$', ['controller' => 'Events', 'action' => 'view']);
+Router::add('^category/(?P<alias>[a-z0-9-]+)/?$', ['controller' => 'Category', 'action' => 'view']);
 
 //default routes
 Router::add('^admin$', ['controller' => 'Main', 'action' => 'index', 'prefix' => 'admin']);

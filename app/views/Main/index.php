@@ -3,7 +3,7 @@
 
 <?php if ($news): ?>
 
-<div class="bnr" id="home" style="background-color: #e8edf2; border: 1px solid #91b1d6; border-radius: 5px; margin: 20px">
+<div class="bnr" id="home" style="background-color: #e0ad7d33; border: 1px solid #6d6968eb; border-radius: 5px; margin: 20px; margin-left: 5%; margin-right: 5%;">
     <div  id="top" class="callbacks_container">
         <ul class="rslides" id="slider4">
              <?php foreach ($news as $new):?>
@@ -55,6 +55,7 @@
 <?php $studlvl = \dinkom\App::$app->getProperty('studyLevel');?>
 <div class="product">
     <div class="container">
+        <h2 style="text-align: center">Скоро в нашем центре</h2>
         <div class="product-top">
             <div class="product-one">
                 <?php foreach ($hitEvents as $hitEvent):?>
@@ -62,16 +63,20 @@
                     <div class="product-main simpleCart_shelfItem">
                         <a href="events/<?=$hitEvent->alias;?>" class="mask"><img class="img-responsive zoom-img" src="public/images/<?=$hitEvent->img;?>" alt="" /></a>
                         <div class="product-bottom">
-                            <h5><?=$hitEvent->title;?></h5>
+                            <h5><a href="events/<?=$hitEvent->alias;?>"><?=$hitEvent->date;?></a></h5>
                             <p>Подробнее</p>
-                            <h5><a class="add-to-cart-link" href="cart/add?id=<?=$hitEvent->id;?>"><i></i></a> <span class=" item_price"><?=$hitEvent->date;?></span></h5>
+                            <h4><a data-id="<?=$hitEvent->id;?>" class="add-to-cart-link" href="cart/add?id=<?=$hitEvent->id;?>"><i>
+
+                                     </i></a> <span class=" item_price">
+                                <?php if($hitEvent->price == 0):?>Бесплатно
+                                <?php else: ?>
+                                    <?=$hitEvent->price?>
+                                <?php endif; ?>
+                                    </span>
                         </div>
                         <div class="srch">
-                            <span><?php if($hitEvent->price == 0):?>
-                            Бесплатно
-                                <?php else: ?>
-                                <?=$hitEvent->price?>
-                                <?php endif; ?>
+                            <span>
+                                <?=$hitEvent->date;?>
                             </span>
                         </div>
                     </div>

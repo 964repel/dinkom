@@ -18,7 +18,7 @@
             <div class="col-md-9 single-main-left">
                 <div class="sngl-top">
                     <div class="col-md-5 single-top-left">
-                        <img src="public/images/<?=$event->img?>">
+                        <img src="public/images/<?=$event->img?>" style="max-width: 500px">
 
 
                     </div>
@@ -30,31 +30,29 @@
                             <h2><?=$event->title;?></h2>
 
 
-                            <h5 class="item_price" style="color: darkred"><?php if($event->price == 0):?>
+                            <h5 class="item_price" id="base_price" style="color: darkred" data-base="<?=$event->price?>"><?php if($event->price == 0):?>
                                     Бесплатно
                                 <?php else: ?>
-                                    <?=$event->price?>
-                                <?php endif; ?>₽</h5>
+                                    <?=$event->price?><span>₽</span>
+                                <?php endif; ?></h5>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-                            <!--<div class="available">
+
+                            <?php if (!empty($mods)):?>
+                            <div class="available">
                                 <ul>
                                     <li>Color
                                         <select>
-                                            <option>Silver</option>
-                                            <option>Black</option>
-                                            <option>Dark Black</option>
-                                            <option>Red</option>
+                                            <option>Дополнения к обучению</option>
+                                            <?php foreach ($mods as $mod):?>
+                                            <option data-title="<?=$mod->title;?>" data-price="<?=$mod->price;?>" value="<?=$mod->id;?>"><?=$mod->title;?></option>
+                                            <?php endforeach;?>
                                         </select></li>
-                                    <li class="size-in">Size<select>
-                                            <option>Large</option>
-                                            <option>Medium</option>
-                                            <option>small</option>
-                                            <option>Large</option>
-                                            <option>small</option>
-                                        </select></li>
+
                                     <div class="clearfix"> </div>
                                 </ul>
-                            </div>-->
+                            </div>
+                            <?php endif;?>
+
                             <ul class="tag-men" style="font-size: 18px">
                                 <li><span>Уровень знаний:  </span>
                                     <span style="color: #911838"><?php if($event->studyLevel == 1):?>
@@ -67,7 +65,7 @@
                                 <li><span>Направление:  </span>
                                     <span style="color: #911838"><a href="category/<?=$cats[$event->category_id]['alias'];?>"><?=$cats[$event->category_id]['title'];?></a></span></li>
                             </ul>
-                            <a href="#" class="add-cart item_add">Записаться</a>
+                            <a id="productAdd" data-id="<?=$event->id;?>" href="cart/add?id=<?=$event->id;?>" class="add-cart item_add add-to-cart-link">Записаться</a>
 <hr/>
                         </div>
                     </div>

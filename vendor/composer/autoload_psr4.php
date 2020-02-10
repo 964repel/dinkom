@@ -8,5 +8,5 @@ $baseDir = dirname($vendorDir);
 return array(
     'dinkom\\' => array($vendorDir . '/dinkom.local/core'),
     'app\\' => array($baseDir . '/app'),
-    'RedBeanPHP\\' => array($vendorDir . '/gabordemooij/redbean/RedBeanPHP'),
+    'Valitron\\' => array($vendorDir . '/vlucas/valitron/src/Valitron'),
 );

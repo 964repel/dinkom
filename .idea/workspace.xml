@@ -1,7 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="879925f6-bc8c-42af-96fe-b50d27bff25a" name="Default Changelist" comment="" />
+    <list default="true" id="879925f6-bc8c-42af-96fe-b50d27bff25a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dinkom.new.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dinkom.new.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/CursesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/CursesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/EventsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/EventsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Curses/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Curses/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Events/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Events/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Main/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Main/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/studycenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/studycenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/c-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/c-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/c-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/pr-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/pr-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/s-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/s-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/s-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/menu/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/menu/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/0832c1202da8d382318e329a7c133ea0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/51d9ed3b0aa305174e55051178035e76.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/errors.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dinkom.local/core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/dinkom.local/core/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dinkom.local/core/base/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/dinkom.local/core/base/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dinkom.local/core/base/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/dinkom.local/core/base/Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dinkom.local/core/libs/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/dinkom.local/core/libs/functions.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,14 +65,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/dinkom.new/core" />
       <path value="$PROJECT_DIR$/vendor/dinkom.local/core" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/valitron" />
     </include_path>
   </component>
   <component name="ProjectId" id="1Ul29iSEejNFQConxEFIyOvEpWd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -35,6 +85,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -81,7 +132,10 @@
       <workItem from="1578881991993" duration="4384000" />
       <workItem from="1578914799679" duration="20337000" />
       <workItem from="1578940669632" duration="27930000" />
-      <workItem from="1581073641663" duration="9681000" />
+      <workItem from="1581073641663" duration="40824000" />
+      <workItem from="1581228425511" duration="25433000" />
+      <workItem from="1581298670341" duration="10504000" />
+      <workItem from="1581341867740" duration="16909000" />
     </task>
     <servers />
   </component>
@@ -93,43 +147,48 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1578941745094" />
-    <state x="520" y="235" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578942272947">
+    <state x="520" y="235" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581146492066">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="520" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1578942272947" />
+    <state x="520" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1581146492066" />
     <state x="353" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581081268025">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="353" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.832@0.0.1536.832" timestamp="1575930763425" />
     <state x="353" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.864@0.0.1536.864" timestamp="1581081268025" />
-    <state x="499" y="171" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1576001674528">
-      <screen x="0" y="0" width="1536" height="832" />
+    <state x="499" y="178" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1581124751449">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="171" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.832@0.0.1536.832" timestamp="1576001674528" />
-    <state x="631" y="235" key="NewPhpClassDialog" timestamp="1581080555518">
+    <state x="499" y="178" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.864@0.0.1536.864" timestamp="1581124751449" />
+    <state x="631" y="235" key="NewPhpClassDialog" timestamp="1581346793759">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="631" y="226" key="NewPhpClassDialog/0.0.1536.832@0.0.1536.832" timestamp="1576178400589" />
-    <state x="631" y="235" key="NewPhpClassDialog/0.0.1536.864@0.0.1536.864" timestamp="1581080555518" />
-    <state x="604" y="352" key="NewPhpFileDialog" timestamp="1578951273772">
+    <state x="631" y="235" key="NewPhpClassDialog/0.0.1536.864@0.0.1536.864" timestamp="1581346793759" />
+    <state x="604" y="352" key="NewPhpFileDialog" timestamp="1581347314029">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="604" y="339" key="NewPhpFileDialog/0.0.1536.832@0.0.1536.832" timestamp="1576182544907" />
-    <state x="604" y="352" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1578951273772" />
-    <state x="470" y="249" key="com.intellij.ide.util.TipDialog" timestamp="1581073716153">
+    <state x="604" y="352" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1581347314029" />
+    <state x="470" y="249" key="com.intellij.ide.util.TipDialog" timestamp="1581341867769">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="470" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.832@0.0.1536.832" timestamp="1576177469002" />
-    <state x="470" y="249" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1581073716153" />
+    <state x="470" y="249" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1581341867769" />
     <state x="93" y="93" width="1350" height="678" key="dock-window-1" timestamp="1581077775404">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="93" y="93" width="1350" height="678" key="dock-window-1/0.0.1536.864@0.0.1536.864" timestamp="1581077775404" />
-    <state x="425" y="196" width="672" height="677" key="run.anything.popup" timestamp="1578585771939">
+    <state x="462" y="37" width="611" height="789" key="find.popup" timestamp="1581260475558">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="462" y="37" width="611" height="789" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1581260475558" />
+    <state x="425" y="196" width="672" height="677" key="run.anything.popup" timestamp="1581146225058">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="425" y="189" key="run.anything.popup/0.0.1536.832@0.0.1536.832" timestamp="1575922329835" />
-    <state x="425" y="196" width="672" height="677" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1578585771939" />
+    <state x="425" y="196" width="672" height="677" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1581146225058" />
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1578934438196">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -140,7 +199,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/app/views/Events/view.php</url>
-          <line>140</line>
+          <line>138</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

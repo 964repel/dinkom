@@ -21,36 +21,49 @@
 
             <div class="col-md-6 top-header-left">
                 <div class="logo">
-                    <a href="<?=PATH?>"><h1 style="color: whitesmoke; font-size: 18px">Учебный Центр ДИНКОМ</h1></a>
+                    <a href="<?=PATH?>"><h1 style="color: whitesmoke; font-size: 21px; text-align: left; text-shadow: 2px 2px 0px rgba(0,0,0,0.98);"><img src="/public/images/logod.png" width="30px"> Учебный Центр ДИНКОМ</h1></a>
                 </div>
-                <div class="drop">
+               <!-- <div class="drop">
                     <div class="box">
                         <select id="studyLevel" tabindex="4" class="dropdown drop" >
-                            <?php new \app\widgets\studyLevel\StudyLevel(); ?>
+                            <?php /*new \app\widgets\studyLevel\StudyLevel(); */?>
                         </select>
                     </div>
-                  <!--  <div class="box1">
-                        <select tabindex="4" class="dropdown">
-                            <option value="" class="label">English :</option>
-                            <option value="1">English</option>
-                            <option value="2">French</option>
-                            <option value="3">German</option>
-                        </select>
-                    </div>-->
-
                     <div class="clearfix"></div>
-                </div>
+                </div>-->
+
 
             </div>
             <div class="col-md-6 top-header-left">
                 <div class="cart box_1">
-                    <a href="checkout.html">
+                    <a href="cart/show" onclick="getCart(); return false;">
                         <div class="total">
-                            <span class="simpleCart_total"></span></div>
-                        <img src="public/images/cart-1.png" alt="" />
+                            <img src="public/images/cart-1.png" alt="" />
+                            <?php if (!empty($_SESSION['cart'])): ?>
+                                <span class="simpleCart_total">Ваши мероприятия: <?=count($_SESSION['cart']);?></span>
+                            <?php else:?>
+                                <span class="simpleCart_total">Нет добавленных мероприятий</span>
+                            <?php endif;?>
+                        </div>
                     </a>
-                    <p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
+
                     <div class="clearfix"> </div>
+                    <div class="btn-group">
+                        <a class="dropdown-toggle" data-toggle="dropdown">
+                            <span style="color: whitesmoke; text-shadow: 1px 1px 0px rgba(0,0,0,0.98); cursor: pointer">Аккаунт</span>
+                            <span class="caret">
+                            <ul class="dropdown-menu">
+                                <?php if (!empty($_SESSION['user'])): ?>
+                                    <li><a href="#">Добро пожаловать, <?=h($_SESSION['user']['name']);?></a></li>
+                                    <li><a href="user/logout">Выход</a></li>
+                                <?php else: ?>
+                                    <li><a href="user/login">Вход</a></li>
+                                    <li><a href="user/signup">Регистрация</a></li>
+                                <?php endif;?>
+                            </ul>
+                        </span>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="clearfix"></div>
@@ -77,8 +90,13 @@
             </div>
             <div class="col-md-3 header-right">
                 <div class="search-bar">
-                    <input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
-                    <input type="submit" value="">
+                    <form action="search" method="get"autocomplete="off">
+                        <input type="text" class="typeahead" id="typeahead" name="s">
+                        <input type="submit" value="">
+                    </form>
+                   <!-- <input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+                    <input type="submit" value="">-->
+
                 </div>
             </div>
             <div class="clearfix"> </div>
@@ -88,15 +106,35 @@
 <!--bottom-header-->
 
 <div class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <?php if(isset($_SESSION['error'])) :?>
+                    <div class="alert alert-danger">
+                        <?php echo $_SESSION['error']; unset($_SESSION['error']);?>
+                    </div>
+                <?php endif;?>
+                <?php if(isset($_SESSION['success'])) :?>
+                    <div class="alert alert-success">
+                        <?php echo $_SESSION['success']; unset($_SESSION['success']);?>
+                    </div>
+                <?php endif;?>
+            </div>
+        </div>
+    </div>
 <?=$content;?>
 </div>
-
+<!--<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="container" style="margin-right: 10%; margin-left: 10%;">
+<div class="elfsight-app-fa43a3b2-7b06-4865-8958-1e8a50ffd894" </div>
+</div>-->
 <!--information-starts-->
+<hr style="width: 80%"/>
 <div class="information">
     <div class="container">
         <div class="infor-top">
             <div class="col-md-3 infor-left">
-                <h3>Follow Us</h3>
+                <h3>Соц.сети</h3>
                 <ul>
                     <li><a href="#"><span class="fb"></span><h6>Facebook</h6></a></li>
                     <li><a href="#"><span class="twit"></span><h6>Twitter</h6></a></li>
@@ -104,32 +142,32 @@
                 </ul>
             </div>
             <div class="col-md-3 infor-left">
-                <h3>Information</h3>
+                <h3>Информация о центре</h3>
                 <ul>
-                    <li><a href="#"><p>Specials</p></a></li>
-                    <li><a href="#"><p>New Products</p></a></li>
-                    <li><a href="#"><p>Our Stores</p></a></li>
-                    <li><a href="contact.html"><p>Contact Us</p></a></li>
-                    <li><a href="#"><p>Top Sellers</p></a></li>
+                    <li><a href="#"><p>Наши преподаватели</p></a></li>
+                    <li><a href="#"><p>Сотрудники центра</p></a></li>
+                    <li><a href="#"><p>Реквизиты</p></a></li>
+                    <li><a href="#"><p>Регламентирующие документы</p></a></li>
+                    <li><a href="#"><p>Отзывы</p></a></li>
                 </ul>
             </div>
             <div class="col-md-3 infor-left">
-                <h3>My Account</h3>
+                <h3>Для учащихся</h3>
                 <ul>
-                    <li><a href="account.html"><p>My Account</p></a></li>
-                    <li><a href="#"><p>My Credit slips</p></a></li>
-                    <li><a href="#"><p>My Merchandise returns</p></a></li>
-                    <li><a href="#"><p>My Personal info</p></a></li>
-                    <li><a href="#"><p>My Addresses</p></a></li>
+                    <li><a href="#"><p>Учебные материалы</p></a></li>
+                    <li><a href="#"><p>Новости</p></a></li>
+                    <li><a href="#"><p>Акции</p></a></li>
+                    <li><a href="#"><p>Архив мероприятий</p></a></li>
+                    <li><a href="#"><p>Вакансии</p></a></li>
                 </ul>
             </div>
             <div class="col-md-3 infor-left">
-                <h3>Store Information</h3>
-                <h4>The company name,
-                    <span>Lorem ipsum dolor,</span>
-                    Glasglow Dr 40 Fe 72.</h4>
-                <h5>+955 123 4567</h5>
-                <p><a href="mailto:example@email.com">contact@example.com</a></p>
+                <h3>Контакты</h3>
+                <h4>УДЦ ДИНКОМ
+                    <span>город Кемерово,</span>
+                    ул.Николая Островского 3/2</h4>
+                <h5><a href="tel:+79230300363">+7 (923) 030-03-63</a></h5>
+                <p><a href="mailto:office@dinkon.ru">office@dinkon.ru</a></p>
             </div>
             <div class="clearfix"></div>
         </div>
@@ -142,20 +180,46 @@
         <div class="footer-top">
             <div class="col-md-6 footer-left">
                 <form>
-                    <input type="text" value="Enter Your Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Your Email';}">
+                    <input type="text" value="Подпишись на рассылку" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Подпишись на рассылку';}">
                     <input type="submit" value="Subscribe">
                 </form>
             </div>
             <div class="col-md-6 footer-right">
-                <p>© 2015 Luxury Watches. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+                <p>© 2020 УДЦ ДИНКОМ </p>
             </div>
             <div class="clearfix"></div>
         </div>
     </div>
 </div>
 <!--footer-end-->
+<div class="modal fade" id="cart" tabindex="1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Добавленные мероприятия</h4>
+            </div>
+
+            <div class="modal-body">
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Смотреть ещё</button>
+                <a href="cart/view" type="button" class="btn btn-primary">Записаться на обучение</a>
+                <button type="button" class="btn bg-danger" onclick="clearCart()">Очистить</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+   const path = '<?=PATH;?>'
+</script>
 <script src="public/js/jquery-1.11.0.min.js"></script>
-<script src="public/js/simpleCart.min.js"> </script>
+<script src="public/js/bootstrap.min.js"></script>
+<script src="public/js/validator.min.js"></script>
+<script src="public/js/typeahead.bundle.js"></script>
 <!--dropdown-->
 <script src="public/js/jquery.easydropdown.js"></script>
 <!--Slider-Starts-Here-->

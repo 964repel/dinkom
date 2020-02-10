@@ -4,29 +4,35 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "073be70a338864d6da9cc76d10fc0a44",
+    "content-hash": "647bdbeaa81e5824c380678ad9c199df",
     "packages": [
         {
-            "name": "gabordemooij/redbean",
-            "version": "dev-master",
+            "name": "vlucas/valitron",
+            "version": "v1.4.7",
             "source": {
                 "type": "git",
-                "url": "https://github.com/gabordemooij/redbean.git",
-                "reference": "cf1c4e63e64d7d34f88e7ebe77cb0d10f68fb9be"
+                "url": "https://github.com/vlucas/valitron.git",
+                "reference": "a03072bed1679660200766d134507a30193eaf6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gabordemooij/redbean/zipball/cf1c4e63e64d7d34f88e7ebe77cb0d10f68fb9be",
-                "reference": "cf1c4e63e64d7d34f88e7ebe77cb0d10f68fb9be",
+                "url": "https://api.github.com/repos/vlucas/valitron/zipball/a03072bed1679660200766d134507a30193eaf6d",
+                "reference": "a03072bed1679660200766d134507a30193eaf6d",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.4"
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35 || ^5.5 || ^6.5"
+            },
+            "suggest": {
+                "ext-mbstring": "It can support the multiple bytes string length."
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "RedBeanPHP\\": "RedBeanPHP"
+                    "Valitron\\": "src/Valitron"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -35,25 +41,25 @@
             ],
             "authors": [
                 {
-                    "name": "Gabor de Mooij",
-                    "email": "gabor@redbeanphp.com",
-                    "homepage": "https://redbeanphp.com"
+                    "name": "Vance Lucas",
+                    "email": "vance@vancelucas.com",
+                    "homepage": "http://www.vancelucas.com"
                 }
             ],
-            "description": "RedBeanPHP ORM",
-            "homepage": "https://redbeanphp.com/",
+            "description": "Simple, elegant, stand-alone validation library with NO dependencies",
+            "homepage": "http://github.com/vlucas/valitron",
             "keywords": [
-                "orm"
+                "valid",
+                "validation",
+                "validator"
             ],
-            "time": "2019-11-30T16:55:12+00:00"
+            "time": "2019-08-29T19:49:43+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "gabordemooij/redbean": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
